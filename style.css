@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(48, 27, 122);
+    color: white;
+    margin: 0;
+    font-family: 'Comic Sans MS';
+}
+
+.title{
+    text-align: left;
+    font-size: 55pt;
+}
+
+.titles1{
+  overflow:visible;
+  position: sticky;
+  top: 55px;
+  background-color:rgb(48, 27, 122);
+  height: 170px;
+}
+
+h2{
+    
+    font-size: 45pt;
+    text-align: center;
+}
+
+p{
+    font-size: 18pt;
+}
+
+.par_photo{
+    text-align: right;
+    margin-right: 5pt;
+}
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr{
+  background-color: #616cff;
+}
+
+tr:nth-child(4) {
+  background-color: #ffb922;
+}
+
+tr:nth-child(1)
+{
+  background-color: rgb(247, 37, 0);
+}
+
+.mem_list{
+  list-style-type: none;
+
+}
+
+.mem_photo{
+  width:120pt;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 168, 5);
+    position: sticky;
+    top: 0;
+    font-size: 18pt;
+  }
+
+  .nav-item {
+    float: left;
+  }
+
+  .nav-item-right {
+    margin-top: 3px;
+    margin-right: 10px;
+    float: right;
+  }
+
+  .item-right {
+    background-color: gray;
+  }
+
+  .item-right:hover {
+    background-color: darkgray;
+  }
+  
+  .nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .nav-item a:hover {
+    background-color: rgb(177, 117, 49);
+    color:red;
+  }
+
+  .active {
+    background-color: rgb(255, 0, 0);
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 86, 86);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    min-height: 70px;
+    min-width: 100px;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+    .video-container {
+    padding-left: 25%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+
+  video{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+  }
+
+  .audio-container{
+    padding-left: 25%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+
+  audio{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+  }
